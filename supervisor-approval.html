@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supervisor Approval - Student Leave Request</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl">
+    <h2 class="text-2xl font-bold mb-6 text-center text-blue-700">Supervisor Approval</h2>
+    <div id="requestDetails" class="mb-6">
+      <!-- Student request details will be loaded here -->
+    </div>
+    <div id="actionSection" class="flex justify-center space-x-4">
+      <button id="approveBtn" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition">Approve</button>
+      <button id="rejectBtn" class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700 transition">Reject</button>
+    </div>
+    <div id="actionMessage" class="text-center mt-4"></div>
+  </div>
+  <script src="supervisor-approval.js"></script>
+</body>
+</html>
 
